@@ -1,8 +1,5 @@
-.container {
-    background-color: #4054c0;
-}
-
 .header {
-    width: 80%;
-    height: 20%;
+    background-color: #4054c0;
+    display: flex;
+    justify-content: center;
 }
