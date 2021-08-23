@@ -1,5 +1,11 @@
+import "./Header.css"
+
 const Header = () => {
-    return <h1>From Header</h1>
+    return (
+        <div className="container">
+            <h1>From Header</h1>
+        </div>
+    )
 }
 
 export default Header
