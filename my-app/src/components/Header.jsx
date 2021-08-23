@@ -1,5 +1,11 @@
+import "./Header.css"
+
 const Header = () => {
-    return <h1>From Header</h1>
+    return (
+        <div className="container p-3 my-3 text-white">
+            <h1>From Header - Taskinator</h1>
+        </div>
+    )
 }
 
 export default Header
