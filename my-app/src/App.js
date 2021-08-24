@@ -1,14 +1,10 @@
 import "./index.css"
-import Header from "./components/Header"
-import Body from "./components/Body"
-import TaskList from "./components/TaskList"
-import FormTodo from "./components/FormTodo"
+import Container from "../src/components/Container"
 
 function App() {
     return (
         <>
-            <Header />
-            <Body />
+            <Container />
         </>
     )
 }
