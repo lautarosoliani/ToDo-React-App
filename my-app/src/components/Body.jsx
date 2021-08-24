@@ -1,11 +1,15 @@
 import "./Body.css"
 
 const Body = () => {
-    return (
-        <>
-            <div className="body container p-3 my-3 text-white">
+    return <></>
+}
+
+export default Body
+
+{
+    /* <div className="body container p-3 my-3 text-white">
                 <div className="h1">
-                    <h1>Your Tasks</h1>
+                    <h1>My body his container</h1>
                 </div>
                 <div className="selects">
                     <div>
@@ -25,9 +29,5 @@ const Body = () => {
                         </select>
                     </div>
                 </div>
-            </div>
-        </>
-    )
+            </div> */
 }
-
-export default Body

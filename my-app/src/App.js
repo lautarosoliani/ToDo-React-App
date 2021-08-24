@@ -1,18 +1,14 @@
 import "./index.css"
 import Header from "./components/Header"
 import Body from "./components/Body"
-import TaskCard from "./components/TaskCard"
+import TaskList from "./components/TaskList"
+import FormTodo from "./components/FormTodo"
 
 function App() {
     return (
         <>
             <Header />
-            <Body>
-                <TaskCard />
-                <TaskCard />
-                <TaskCard />
-                <TaskCard />
-            </Body>
+            <Body />
         </>
     )
 }
