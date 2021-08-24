@@ -10,7 +10,7 @@ const Body = () => {
                 <div className="selects">
                     <div>
                         <label>Select Category:</label>
-                        <select>
+                        <select class="form-select">
                             <option>Home</option>
                             <option>Health</option>
                             <option>Job</option>
@@ -19,7 +19,7 @@ const Body = () => {
                     </div>
                     <div>
                         <label>Select State:</label>
-                        <select>
+                        <select class="form-select">
                             <option>Finished</option>
                             <option>Unfinished</option>
                         </select>
