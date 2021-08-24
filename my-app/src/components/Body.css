@@ -1,6 +1,14 @@
 .body {
     background-color: #4054c0;
     height: 80vh;
+}
+
+.h1 {
     display: flex;
     justify-content: center;
+}
+.selects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
