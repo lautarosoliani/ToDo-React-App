@@ -1,7 +1,14 @@
 import "./Body.css"
+import TaskList from "./TaskList"
+import FormTodo from "./FormTodo"
 
 const Body = () => {
-    return <></>
+    return (
+        <>
+            <FormTodo />
+            <TaskList />
+        </>
+    )
 }
 
 export default Body
