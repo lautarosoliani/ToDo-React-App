@@ -1,7 +1,7 @@
 import React from "react"
 
 const FormTodo = () => {
-    return <div>FormTodo</div>
+    return <>FormTodo</>
 }
 
 export default FormTodo

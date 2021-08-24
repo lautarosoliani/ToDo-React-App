@@ -1,12 +1,10 @@
 import "./index.css"
-import Header from "./components/Header"
-import Body from "./components/Body"
+import Container from "../src/components/Container"
 
 function App() {
     return (
         <>
-            <Header />
-            <Body />
+            <Container />
         </>
     )
 }
